@@ -19,7 +19,7 @@
 														</div>
 														<div class="input-group mg-b-pro-edt">
                                                         <span class="input-group-addon"><i class="fa fa-pencil" aria-hidden="true"></i></span>								
-                                                        <input type="text" class="form-control" name="warna_barang" placeholder ="Warna Barang">
+                                                        <input type="text" class="form-control" name="nama_barang" placeholder ="Nama Barang">
                                                     </div>
                                                     <div class="input-group mg-b-pro-edt">
                                                         <span class="input-group-addon"><i class="fa fa-usd" aria-hidden="true"></i></span>

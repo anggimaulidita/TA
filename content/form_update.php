@@ -7,7 +7,7 @@ $sql="SELECT * FROM product_edit where id_barang = '$id_barang'";
 $tampilkan = mysqli_query($koneksi,$sql);
 while($r = mysqli_fetch_assoc($tampilkan)){
 	// print_r($r);
-	$warna_barang = $r['warna_barang'];
+	$nama_barang = $r['nama_barang'];
 	$harga = $r['harga'];
 	$Jumlah = $r['jumlah'];
 	$ukuran = $r['ukuran'];

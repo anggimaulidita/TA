@@ -8,7 +8,7 @@
                                 
 								
                                     <th>Id</th>
-                                    <th>Warna Barang</th>
+                                    <th>Nama Barang</th>
 									<th>Harga</th>
 									<th>Jumlah</th>
                                     <th>Ukuran</th>
@@ -25,7 +25,7 @@
 								
                                 <tr>
                                     <td><?php echo $r['id_barang']?></td>
-                                    <td><?php echo $r['warna_barang']?></td>
+                                    <td><?php echo $r['nama_barang']?></td>
 									<td><?php echo $r['harga']?></td>
 									<td><?php echo $r['jumlah']?></td>
 									<td><?php echo $r['ukuran']?></td>

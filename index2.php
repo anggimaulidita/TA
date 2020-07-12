@@ -131,7 +131,7 @@
                                             <ul class="nav navbar-nav mai-top-na  v header-right-menu">
 	                                                <li class="nav-item">
                                                     <a href="#" data-toggle="dropdown" role="button" aria-expanded="false" class="nav-link dropdown-toggle">
-															<img class="main-logo" src="img/logo/iconadmin3.png" alt="" />
+															<img class="main-logo" src="img/logo/Iconadmin.png" alt="" />
 															<span class="admin-name"><?php echo $_SESSION['username']?></span>
 															<i class="fa fa-angle-down adminpro-icon adminpro-down-arrow"></i>
 														</a>

@@ -6,5 +6,5 @@ $_SESSION['login']='';
 unset($_SESSION['login']);
 session_unset();
 session_destroy();
-header( "Location: http://localhost/SepatuAdidas/form.php" );
+header( "Location: http://localhost/Madocci/form.php" );
 ?>
