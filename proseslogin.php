@@ -19,9 +19,9 @@ if($rowCheck > 0){
 	//echo 'login berhasil..!!';
 
 	//redirect ke halaman lain untuk lebih memastikan
-	header( "Location: http://localhost/SepatuAdidas/index2.php" );
+	header( "Location: http://localhost/Madocci/index2.php" );
 	}
 }else{
-	header( "Location: http://localhost/SepatuAdidas/form.php" );
+	header( "Location: http://localhost/Madocci/form.php" );
 }
 ?>

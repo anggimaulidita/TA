@@ -10,9 +10,9 @@ include "koneksi.php";
 	$gambar = $_POST['gambar'];
 	$kategori = $_POST['kategori'];
 	if($gambar==null){
-		$sql="UPDATE product_edit set  id_barang='$id_barang', warna_barang='$nama_barang' , harga ='$harga', Jumlah = '$Jumlah', ukuran = '$ukuran', diskon ='$diskon', kategori='$kategori' where id_barang = '$id_barang' ";
+		$sql="UPDATE product_edit set  id_barang='$id_barang', nama_barang='$nama_barang' , harga ='$harga', Jumlah = '$Jumlah', ukuran = '$ukuran', diskon ='$diskon', kategori='$kategori' where id_barang = '$id_barang' ";
 	}else{
-	$sql="UPDATE product_edit set  id_barang='$id_barang', warna_barang='$nama_barang' , gambar='$gambar', harga ='$harga' , Jumlah = '$Jumlah', ukuran = '$ukuran', diskon ='$diskon', kategori='$kategori' where id_barang = '$id_barang' ";	
+	$sql="UPDATE product_edit set  id_barang='$id_barang', nama_barang='$nama_barang' , gambar='$gambar', harga ='$harga' , Jumlah = '$Jumlah', ukuran = '$ukuran', diskon ='$diskon', kategori='$kategori' where id_barang = '$id_barang' ";	
 	}
 	
 // die($sql);
